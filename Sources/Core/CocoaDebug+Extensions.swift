@@ -304,7 +304,7 @@ extension UIWindow {
 extension CocoaDebug {
     
     ///init
-    static func initializationMethod(serverURL: String? = nil, ignoredURLs: [String]? = nil, onlyURLs: [String]? = nil, tabBarControllers: [UIViewController]? = nil, emailToRecipients: [String]? = nil, emailCcRecipients: [String]? = nil, mainColor: String? = nil, protobufTransferMap: [String: [String]]? = nil)
+    static func initializationMethod(serverURL: String? = nil, ignoredURLs: [String]? = nil, onlyURLs: [String]? = nil, tabBarControllers: [UIViewController]? = nil, emailToRecipients: [String]? = nil, emailCcRecipients: [String]? = nil, mainColor: String? = nil, bubbleImageName: String? = nil, protobufTransferMap: [String: [String]]? = nil)
     {
         if CocoaDebugSettings.shared.isRunning == true {return}
         
@@ -363,7 +363,8 @@ extension CocoaDebug {
         
         //color
         CocoaDebugSettings.shared.mainColor = mainColor ?? "#42d459"
-        
+
+        CocoaDebugSettings.shared.bubbleImageName = bubbleImageName ?? "bug_place_holder.png"
         //slow animations
         CocoaDebugSettings.shared.slowAnimations = false
         

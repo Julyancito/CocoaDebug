@@ -174,6 +174,15 @@ import Foundation
             _NetworkHelper.shared().mainColor = mainColor.hexColor
         }
     }
+
+    @objc public var bubbleImageName: String {
+        didSet {
+            UserDefaults.standard.set(bubbleImageName, forKey: "bubbleImageName_CocoaDebug")
+            UserDefaults.standard.synchronize()
+            _NetworkHelper.shared()?.bubbleImageName = bubbleImageName
+        }
+    }
+
     @objc public var tabBarControllers: [UIViewController]? = nil
     
     //share via email
@@ -225,6 +234,7 @@ import Foundation
         logSearchWordH5 = UserDefaults.standard.string(forKey: "logSearchWordH5_CocoaDebug")
         networkSearchWord = UserDefaults.standard.string(forKey: "networkSearchWord_CocoaDebug")
         mainColor = UserDefaults.standard.string(forKey: "mainColor_CocoaDebug") ?? "#42d459"
+        bubbleImageName = UserDefaults.standard.string(forKey: "bubbleImageName_CocoaDebug") ?? "bug_place_holder.png"
 
         //objc
         logMaxCount = _NetworkHelper.shared().logMaxCount

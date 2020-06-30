@@ -15,6 +15,9 @@
 //color for objc
 @property (nonatomic, strong) UIColor *mainColor;
 
+//image name for objc
+@property (nonatomic, strong) NSString *bubbleImageName;
+
 /**
  *  设置只抓取的域名,忽略大小写,默认抓取所有
  */

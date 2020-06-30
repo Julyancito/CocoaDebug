@@ -33,6 +33,13 @@ class Bubble: UIView {
     private lazy var numberLabel: UILabel? = {
         return UILabel(frame: CGRect(x:0, y:0, width:_width, height:_height))
     }()
+
+    private lazy var imageIcon: UIImageView? = {
+        let imageView = UIImageView(frame: CGRect(x:0, y:0, width:_width, height:_height))
+        imageView.image = UIImage(named: CocoaDebug.bubbleImageName ?? "bug_place_holder.png")
+        imageView.contentMode = .scaleAspectFill
+        return imageView
+    }()
     
     private var networkNumber: Int = 0
     
@@ -125,7 +132,7 @@ class Bubble: UIView {
         self.layer.shadowColor = UIColor.black.cgColor
         self.layer.shadowRadius = 5
         self.layer.shadowOpacity = 0.8
-        self.layer.cornerRadius = 10
+        self.layer.cornerRadius = 30
         self.layer.shadowOffset = CGSize.zero
         self.layer.masksToBounds = true
         self.sizeToFit()
@@ -133,7 +140,7 @@ class Bubble: UIView {
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = bounds
         gradientLayer.cornerRadius = 10
-        gradientLayer.colors = Color.colorGradientHead
+//        gradientLayer.colors = Color.colorGradientHead
         self.layer.addSublayer(gradientLayer)
         
         
@@ -148,9 +155,13 @@ class Bubble: UIView {
                 // Fallback on earlier versions
                 numberLabel.font = UIFont.boldSystemFont(ofSize: 20)
             }
-            self.addSubview(numberLabel)
-        }
-        
+
+            guard let imageIcon = imageIcon else {
+                self.addSubview(numberLabel)
+                return
+            }
+            self.addSubview(imageIcon)
+        }        
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(Bubble.tap))
         self.addGestureRecognizer(tapGesture)

@@ -28,10 +28,12 @@ import Foundation
     @objc public static var mainColor: String = "#42d459"
     ///protobuf url and response class transfer map. default value is `nil`.
     @objc public static var protobufTransferMap: [String: [String]]? = nil
+    ///set the buble image name. default value is `bug_place_holder.png`.
+    @objc public static var bubbleImageName: String? = "bug_place_holder.png"
     
     //MARK: - CocoaDebug enable
     @objc public static func enable() {
-        initializationMethod(serverURL: serverURL, ignoredURLs: ignoredURLs, onlyURLs: onlyURLs, tabBarControllers: tabBarControllers, emailToRecipients: emailToRecipients, emailCcRecipients: emailCcRecipients, mainColor: mainColor, protobufTransferMap: protobufTransferMap)
+        initializationMethod(serverURL: serverURL, ignoredURLs: ignoredURLs, onlyURLs: onlyURLs, tabBarControllers: tabBarControllers, emailToRecipients: emailToRecipients, emailCcRecipients: emailCcRecipients, mainColor: mainColor, bubbleImageName: bubbleImageName, protobufTransferMap: protobufTransferMap)
     }
     
     //MARK: - CocoaDebug disable
