@@ -264,8 +264,8 @@ class LogViewController: UIViewController {
         view.addGestureRecognizer(tap)
         
         
-        deleteItem.tintColor = Color.mainGreen
-        segmentedControl.tintColor = Color.mainGreen
+        deleteItem.tintColor = UIColor.white
+        segmentedControl.tintColor = UIColor.white
         
         if UIScreen.main.bounds.size.width == 320 {
             segmentedControl.setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 11)], for: .normal)

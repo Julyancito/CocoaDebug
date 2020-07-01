@@ -31,8 +31,8 @@
 //default value for @property
 - (id)init {
     if (self = [super init])  {
-        self.mainColor = [UIColor colorFromHexString:@"#42d459"];
-        self.bubbleImageName = @"bug_place_holder.png";
+        self.mainColor = [UIColor colorFromHexString:@"#A1A2B4"];
+        self.bubbleImageName = @"Icon-App.png";
         self.logMaxCount = 1000;
         self.isEnable = YES;
     }

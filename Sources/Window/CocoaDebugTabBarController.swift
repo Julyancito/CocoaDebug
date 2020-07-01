@@ -21,7 +21,7 @@ class CocoaDebugTabBarController: UITabBarController {
         setChildControllers()
         
         self.selectedIndex = CocoaDebugSettings.shared.tabBarSelectItem 
-        self.tabBar.tintColor = Color.mainGreen
+        self.tabBar.tintColor = .elephant
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -59,12 +59,14 @@ class CocoaDebugTabBarController: UITabBarController {
         
         //3.
         guard let tabBarControllers = CocoaDebugSettings.shared.tabBarControllers else {
-            self.viewControllers = [network, logs, sandbox, app]
+//            self.viewControllers = [network, logs, sandbox, app]
+            self.viewControllers = [network]
             return
         }
         
         //4.添加额外的控制器
-        var temp = [network, logs, sandbox, app]
+//        var temp = [network, logs, sandbox, app]
+        var temp = [network]
         
         for vc in tabBarControllers {
             
@@ -74,9 +76,9 @@ class CocoaDebugTabBarController: UITabBarController {
             //****** 以下代码从NavigationController.swift复制 ******
             nav.navigationBar.isTranslucent = false
             
-            nav.navigationBar.tintColor = Color.mainGreen
+            nav.navigationBar.tintColor = UIColor.white
             nav.navigationBar.titleTextAttributes = [.font: UIFont.boldSystemFont(ofSize: 20),
-                                                     .foregroundColor: Color.mainGreen]
+                                                     .foregroundColor: UIColor.white]
             
             let selector = #selector(CocoaDebugNavigationController.exit)
             
@@ -84,7 +86,7 @@ class CocoaDebugTabBarController: UITabBarController {
             let image = UIImage(named: "_icon_file_type_close", in: Bundle(for: CocoaDebugNavigationController.self), compatibleWith: nil)
             let leftItem = UIBarButtonItem(image: image,
                                              style: .done, target: self, action: selector)
-            leftItem.tintColor = Color.mainGreen
+            leftItem.tintColor = UIColor.white
             nav.topViewController?.navigationItem.leftBarButtonItem = leftItem
             //****** 以上代码从NavigationController.swift复制 ******
             

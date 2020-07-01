@@ -305,12 +305,12 @@ class NetworkDetailViewController: UITableViewController, MFMailComposeViewContr
         
         naviItemTitleLabel = UILabel.init(frame: CGRect(x: 0, y: 0, width: 80, height: 40))
         naviItemTitleLabel?.textAlignment = .center
-        naviItemTitleLabel?.textColor = Color.mainGreen
+        naviItemTitleLabel?.textColor = UIColor.white
         naviItemTitleLabel?.font = .boldSystemFont(ofSize: 20)
         naviItemTitleLabel?.text = "Details"
         naviItem.titleView = naviItemTitleLabel
         
-        closeItem.tintColor = Color.mainGreen
+        closeItem.tintColor = UIColor.white
         
         //确定request格式(JSON/Form)
         detectRequestSerializer()
@@ -364,14 +364,14 @@ class NetworkDetailViewController: UITableViewController, MFMailComposeViewContr
         let actionSheetController: UIAlertController = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         
         // create an action
-        let firstAction: UIAlertAction = UIAlertAction(title: "share via email", style: .default) { [weak self] action -> Void in
+        let firstAction: UIAlertAction = UIAlertAction(title: "Share via email", style: .default) { [weak self] action -> Void in
             if let mailComposeViewController = self?.configureMailComposer() {
                 if #available(iOS 13, *) {mailComposeViewController.modalPresentationStyle = .fullScreen}
                 self?.present(mailComposeViewController, animated: true, completion: nil)
             }
         }
         
-        let secondAction: UIAlertAction = UIAlertAction(title: "copy to clipboard", style: .default) { [weak self] action -> Void in
+        let secondAction: UIAlertAction = UIAlertAction(title: "Copy to clipboard", style: .default) { [weak self] action -> Void in
             _ = self?.configureMailComposer(true)
             UIPasteboard.general.string = self?.messageBody
         }

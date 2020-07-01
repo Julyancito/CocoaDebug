@@ -362,9 +362,9 @@ extension CocoaDebug {
         CocoaDebugSettings.shared.emailCcRecipients = emailCcRecipients
         
         //color
-        CocoaDebugSettings.shared.mainColor = mainColor ?? "#42d459"
+        CocoaDebugSettings.shared.mainColor = mainColor ?? "#A1A2B4"
 
-        CocoaDebugSettings.shared.bubbleImageName = bubbleImageName ?? "bug_place_holder.png"
+        CocoaDebugSettings.shared.bubbleImageName = bubbleImageName ?? "Icon-App.png"
         //slow animations
         CocoaDebugSettings.shared.slowAnimations = false
         

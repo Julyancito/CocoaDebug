@@ -24,12 +24,12 @@ import Foundation
     @objc public static var emailToRecipients: [String]? = nil
     ///set the initial recipients to include in the email’s “Cc” field when share via email. default value is `nil`.
     @objc public static var emailCcRecipients: [String]? = nil
-    ///set the main color with hexadecimal format. default value is `#42d459`.
-    @objc public static var mainColor: String = "#42d459"
+    ///set the main color with hexadecimal format. default value is `#A1A2B4`.
+    @objc public static var mainColor: String = "#A1A2B4"
     ///protobuf url and response class transfer map. default value is `nil`.
     @objc public static var protobufTransferMap: [String: [String]]? = nil
-    ///set the buble image name. default value is `bug_place_holder.png`.
-    @objc public static var bubbleImageName: String? = "bug_place_holder.png"
+    ///set the buble image name. default value is `Icon-App.png`.
+    @objc public static var bubbleImageName: String? = "Icon-App.png"
     
     //MARK: - CocoaDebug enable
     @objc public static func enable() {

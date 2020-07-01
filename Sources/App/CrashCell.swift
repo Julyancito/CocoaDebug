@@ -31,7 +31,7 @@ class CrashCell: UITableViewCell {
                                     value: UIColor.white, range: NSMakeRange(0, content.count))
                 
                 let range = NSMakeRange(0, formatDate.count)
-                attstr.addAttribute(.foregroundColor, value: Color.mainGreen, range: range)
+                attstr.addAttribute(.foregroundColor, value: UIColor.white, range: range)
                 attstr.addAttribute(.font, value: UIFont.boldSystemFont(ofSize: 12), range: range)
                 
                 textview.attributedText = attstr

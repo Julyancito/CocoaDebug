@@ -36,7 +36,7 @@ class Bubble: UIView {
 
     private lazy var imageIcon: UIImageView? = {
         let imageView = UIImageView(frame: CGRect(x:0, y:0, width:_width, height:_height))
-        imageView.image = UIImage(named: CocoaDebug.bubbleImageName ?? "bug_place_holder.png")
+        imageView.image = UIImage(named: CocoaDebug.bubbleImageName ?? "Icon-App.png")
         imageView.contentMode = .scaleAspectFill
         return imageView
     }()

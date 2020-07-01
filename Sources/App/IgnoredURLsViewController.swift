@@ -23,7 +23,7 @@ class IgnoredURLsViewController: UITableViewController {
         
         naviItemTitleLabel = UILabel.init(frame: CGRect(x: 0, y: 0, width: 80, height: 40))
         naviItemTitleLabel?.textAlignment = .center
-        naviItemTitleLabel?.textColor = Color.mainGreen
+        naviItemTitleLabel?.textColor = UIColor.white
         naviItemTitleLabel?.font = .boldSystemFont(ofSize: 20)
         naviItemTitleLabel?.text = "Ignored URLs"
         naviItem.titleView = naviItemTitleLabel
@@ -44,8 +44,8 @@ extension IgnoredURLsViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell.init(style: .default, reuseIdentifier: "cell")
         cell.textLabel?.text = models?[indexPath.row]
-        cell.textLabel?.textColor = .white
-        cell.contentView.backgroundColor = .black
+        cell.textLabel?.textColor = .whiteSmoke
+        cell.contentView.backgroundColor = .elephant
         cell.selectionStyle = .none
         
         return cell

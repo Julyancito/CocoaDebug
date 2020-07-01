@@ -15,16 +15,16 @@ class CocoaDebugNavigationController: UINavigationController {
 
         navigationBar.isTranslucent = false //liman
         
-        navigationBar.tintColor = Color.mainGreen
+        navigationBar.tintColor = .white
         navigationBar.titleTextAttributes = [.font: UIFont.boldSystemFont(ofSize: 20),
-                                             .foregroundColor: Color.mainGreen]
+                                             .foregroundColor: UIColor.white]
 
         let selector = #selector(CocoaDebugNavigationController.exit)
         
         let image = UIImage(named: "_icon_file_type_close", in: Bundle(for: CocoaDebugNavigationController.self), compatibleWith: nil)
         let leftItem = UIBarButtonItem(image: image,
                                          style: .done, target: self, action: selector)
-        leftItem.tintColor = Color.mainGreen
+        leftItem.tintColor = UIColor.white
         topViewController?.navigationItem.leftBarButtonItem = leftItem
     }
     

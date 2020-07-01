@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		258F723824AC94AE00805999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 258F723724AC94AE00805999 /* Assets.xcassets */; };
 		38095B772414C5F300382668 /* CocoaDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38095A172414C5F300382668 /* CocoaDebug.swift */; };
 		38095B782414C5F300382668 /* CocoaDebugSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38095A182414C5F300382668 /* CocoaDebugSettings.swift */; };
 		38095B792414C5F300382668 /* CocoaDebug+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38095A1A2414C5F300382668 /* CocoaDebug+Extensions.swift */; };
@@ -26,7 +27,6 @@
 		38095B872414C5F300382668 /* NetworkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38095A2C2414C5F300382668 /* NetworkCell.xib */; };
 		38095B882414C5F300382668 /* Logs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38095A2D2414C5F300382668 /* Logs.storyboard */; };
 		38095B892414C5F300382668 /* _icon_file_type_app@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38095A2F2414C5F300382668 /* _icon_file_type_app@2x.png */; };
-		38095B8A2414C5F300382668 /* _icon_file_type_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38095A302414C5F300382668 /* _icon_file_type_close@2x.png */; };
 		38095B8B2414C5F300382668 /* _icon_file_type_network@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38095A312414C5F300382668 /* _icon_file_type_network@2x.png */; };
 		38095B8C2414C5F300382668 /* _icon_file_type_sandbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38095A322414C5F300382668 /* _icon_file_type_sandbox@2x.png */; };
 		38095B8D2414C5F300382668 /* _icon_file_type_logs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38095A332414C5F300382668 /* _icon_file_type_logs@2x.png */; };
@@ -268,7 +268,6 @@
 		383CB06221E5F58500398720 /* index2.html in Resources */ = {isa = PBXBuildFile; fileRef = 383CB06121E5F58500398720 /* index2.html */; };
 		3849FEA521E5E1DD00662E95 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3849FEA421E5E1DD00662E95 /* index.html */; };
 		3875C6FA228F1A4800F6B626 /* WKWebViewTestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3875C6F9228F1A4800F6B626 /* WKWebViewTestController.swift */; };
-		E112E33524ABACEE003835C3 /* bug_place_holder.png in Resources */ = {isa = PBXBuildFile; fileRef = E112E33424ABACEE003835C3 /* bug_place_holder.png */; };
 		EA1659D7204D1B14001472C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1659D6204D1B14001472C1 /* AppDelegate.swift */; };
 		EA1659D9204D1B14001472C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1659D8204D1B14001472C1 /* ViewController.swift */; };
 		EA1659DC204D1B14001472C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1659DA204D1B14001472C1 /* Main.storyboard */; };
@@ -363,6 +362,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		258F723724AC94AE00805999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38095A172414C5F300382668 /* CocoaDebug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaDebug.swift; sourceTree = "<group>"; };
 		38095A182414C5F300382668 /* CocoaDebugSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaDebugSettings.swift; sourceTree = "<group>"; };
 		38095A192414C5F300382668 /* CocoaDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaDebug.h; sourceTree = "<group>"; };
@@ -384,7 +384,6 @@
 		38095A2C2414C5F300382668 /* NetworkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetworkCell.xib; sourceTree = "<group>"; };
 		38095A2D2414C5F300382668 /* Logs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Logs.storyboard; sourceTree = "<group>"; };
 		38095A2F2414C5F300382668 /* _icon_file_type_app@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_icon_file_type_app@2x.png"; sourceTree = "<group>"; };
-		38095A302414C5F300382668 /* _icon_file_type_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_icon_file_type_close@2x.png"; sourceTree = "<group>"; };
 		38095A312414C5F300382668 /* _icon_file_type_network@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_icon_file_type_network@2x.png"; sourceTree = "<group>"; };
 		38095A322414C5F300382668 /* _icon_file_type_sandbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_icon_file_type_sandbox@2x.png"; sourceTree = "<group>"; };
 		38095A332414C5F300382668 /* _icon_file_type_logs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_icon_file_type_logs@2x.png"; sourceTree = "<group>"; };
@@ -696,7 +695,6 @@
 		40B2F0D32DB860EF145358AC /* Pods_Example_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		506D66AD894FC6EC245D3A0C /* Pods_Example_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DEBA7E7D77775A307F16EE /* Pods_CocoaDebug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaDebug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E112E33424ABACEE003835C3 /* bug_place_holder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bug_place_holder.png; sourceTree = "<group>"; };
 		EA1659D3204D1B14001472C1 /* Example_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA1659D6204D1B14001472C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA1659D8204D1B14001472C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -888,6 +886,7 @@
 				38095A392414C5F300382668 /* FileType */,
 				38095ADC2414C5F300382668 /* Manager.storyboard */,
 				38095ADD2414C5F300382668 /* App.storyboard */,
+				258F723724AC94AE00805999 /* Assets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -896,7 +895,6 @@
 			isa = PBXGroup;
 			children = (
 				38095A2F2414C5F300382668 /* _icon_file_type_app@2x.png */,
-				38095A302414C5F300382668 /* _icon_file_type_close@2x.png */,
 				38095A312414C5F300382668 /* _icon_file_type_network@2x.png */,
 				38095A322414C5F300382668 /* _icon_file_type_sandbox@2x.png */,
 				38095A332414C5F300382668 /* _icon_file_type_logs@2x.png */,
@@ -1286,7 +1284,6 @@
 		EA1659CA204D1B14001472C1 = {
 			isa = PBXGroup;
 			children = (
-				E112E33424ABACEE003835C3 /* bug_place_holder.png */,
 				38095A152414C5F300382668 /* Sources */,
 				EA1659D5204D1B14001472C1 /* Example_Swift */,
 				EA6B277720596883004D8E05 /* Example_SwiftTests */,
@@ -1630,7 +1627,6 @@
 				38095BA42414C5F300382668 /* icon_file_type_sql@3x.png in Resources */,
 				38095C1C2414C5F400382668 /* icon_file_type_wmv@2x.png in Resources */,
 				38095BF92414C5F400382668 /* icon_file_type_psd@2x.png in Resources */,
-				38095B8A2414C5F300382668 /* _icon_file_type_close@2x.png in Resources */,
 				38095B9B2414C5F300382668 /* icon_file_type_avi@2x.png in Resources */,
 				38095B992414C5F300382668 /* icon_file_type_aac@3x.png in Resources */,
 				38095BE52414C5F400382668 /* icon_file_type_ipa@2x.png in Resources */,
@@ -1648,7 +1644,6 @@
 				38095BCB2414C5F400382668 /* icon_file_type_folder_empty@2x.png in Resources */,
 				38095B872414C5F300382668 /* NetworkCell.xib in Resources */,
 				38095B942414C5F300382668 /* icon_file_type_bin@3x.png in Resources */,
-				E112E33524ABACEE003835C3 /* bug_place_holder.png in Resources */,
 				38095C032414C5F400382668 /* icon_file_type_java.png in Resources */,
 				38095BA82414C5F300382668 /* icon_file_type_flv@2x.png in Resources */,
 				38095C1F2414C5F400382668 /* icon_file_type_keynote@2x.png in Resources */,
@@ -1738,6 +1733,7 @@
 				38095BC82414C5F400382668 /* icon_file_type_eps@2x.png in Resources */,
 				38095B892414C5F300382668 /* _icon_file_type_app@2x.png in Resources */,
 				38095B9F2414C5F300382668 /* icon_file_type_plist@2x.png in Resources */,
+				258F723824AC94AE00805999 /* Assets.xcassets in Resources */,
 				38095BBF2414C5F400382668 /* icon_file_type_bin@2x.png in Resources */,
 				38095C062414C5F400382668 /* icon_file_type_wmv.png in Resources */,
 				38095BA72414C5F300382668 /* icon_file_type_avi.png in Resources */,
@@ -2096,7 +2092,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XA8SWALX42;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"${SDK_DIR}/usr/include/libxml2",
 					"$(PROJECT_DIR)",
@@ -2107,7 +2103,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-lxml2";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Example.Swift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JAFNiceExample.Swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Example_Swift/Example_Swift-Bridging-Header.h";
@@ -2124,7 +2120,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XA8SWALX42;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"${SDK_DIR}/usr/include/libxml2",
 					"$(PROJECT_DIR)",
@@ -2135,7 +2131,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-lxml2";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Example.Swift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JAFNiceExample.Swift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Example_Swift/Example_Swift-Bridging-Header.h";

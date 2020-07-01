@@ -95,12 +95,12 @@ class NetworkViewController: UIViewController {
         
         naviItemTitleLabel = UILabel.init(frame: CGRect(x: 0, y: 0, width: 80, height: 40))
         naviItemTitleLabel?.textAlignment = .center
-        naviItemTitleLabel?.textColor = Color.mainGreen
+        naviItemTitleLabel?.textColor = UIColor.white
         naviItemTitleLabel?.font = .boldSystemFont(ofSize: 20)
         naviItem.titleView = naviItemTitleLabel
         
-        naviItemTitleLabel?.text = "[0]"
-        deleteItem.tintColor = Color.mainGreen
+        naviItemTitleLabel?.text = "[ 0 ]"
+        deleteItem.tintColor = UIColor.white
         
         //notification
         NotificationCenter.default.addObserver(self, selector: #selector(reloadHttp_notification), name: NSNotification.Name(rawValue: "reloadHttp_CocoaDebug"), object: nil)
@@ -173,7 +173,7 @@ class NetworkViewController: UIViewController {
 
         dispatch_main_async_safe { [weak self] in
             self?.tableView.reloadData()
-            self?.naviItemTitleLabel?.text = "[0]"
+            self?.naviItemTitleLabel?.text = "[ 0 ]"
         }
         
         NotificationCenter.default.post(name: NSNotification.Name("deleteAllLogs_CocoaDebug"), object: nil, userInfo: nil)
@@ -197,7 +197,7 @@ extension NetworkViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if let count = models?.count {
-            naviItemTitleLabel?.text = "[" + String(count) + "]"
+            naviItemTitleLabel?.text = "[ " + String(count) + " ]"
             return count
         }
         return 0
