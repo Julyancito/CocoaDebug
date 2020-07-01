@@ -36,7 +36,7 @@ class Bubble: UIView {
 
     private lazy var imageIcon: UIImageView? = {
         let imageView = UIImageView(frame: CGRect(x:0, y:0, width:_width, height:_height))
-        imageView.image = UIImage(named: CocoaDebug.bubbleImageName ?? "_Icon_app@2x.png")
+        imageView.image = UIImage(named: CocoaDebug.bubbleImageName ?? "BubbleImage.png")
         imageView.contentMode = .scaleAspectFill
         return imageView
     }()
@@ -133,6 +133,8 @@ class Bubble: UIView {
         self.layer.shadowRadius = 10
         self.layer.shadowOpacity = 0.9
         self.layer.cornerRadius = 35
+        self.layer.borderWidth = 1
+        self.layer.borderColor = UIColor.lightGray.cgColor
         self.layer.shadowOffset = CGSize.zero
         self.layer.masksToBounds = true
         self.sizeToFit()

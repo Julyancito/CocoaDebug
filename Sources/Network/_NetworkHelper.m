@@ -32,7 +32,7 @@
 - (id)init {
     if (self = [super init])  {
         self.mainColor = [UIColor colorFromHexString:@"#A1A2B4"];
-        self.bubbleImageName = @"_Icon_app@2x.png";
+        self.bubbleImageName = @"BubbleImage.png";
         self.logMaxCount = 1000;
         self.isEnable = YES;
     }
