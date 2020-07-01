@@ -160,7 +160,7 @@
                                     <action selector="didTapDown:" destination="C9A-fD-Ood" id="gBt-b7-jTb"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem image="arrow-up" id="Rna-qw-hSf">
+                            <barButtonItem image="arrow-down.png" id="Rna-qw-hSf">
                                 <connections>
                                     <action selector="didTapUp:" destination="C9A-fD-Ood" id="MiC-y5-dZp"/>
                                 </connections>
@@ -172,7 +172,7 @@
                                     <action selector="tapTrashButton:" destination="C9A-fD-Ood" id="1T5-L9-r5A"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem image="arrow-up" id="DwB-Uq-GiA">
+                            <barButtonItem image="arrow-up.png" id="DwB-Uq-GiA">
                                 <connections>
                                     <action selector="didTapDown:" destination="C9A-fD-Ood" id="gog-cd-BkI"/>
                                 </connections>
@@ -319,7 +319,7 @@
                                     <action selector="close:" destination="q3G-BB-F3V" id="Kqx-p8-JEG"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem image="share" id="geK-c2-khg">
+                            <barButtonItem image="share.png" id="geK-c2-khg">
                                 <connections>
                                     <action selector="didTapMail:" destination="q3G-BB-F3V" id="Afj-Xh-f8n"/>
                                 </connections>
@@ -416,7 +416,8 @@
     <resources>
         <image name="_icon_file_type_close.png" width="25" height="25"/>
         <image name="_icon_file_type_network" width="16" height="16"/>
-        <image name="arrow-up" width="25" height="25"/>
-        <image name="share" width="25" height="25"/>
+        <image name="arrow-down.png" width="25" height="25"/>
+        <image name="arrow-up.png" width="25" height="25"/>
+        <image name="share.png" width="25" height="25"/>
     </resources>
 </document>

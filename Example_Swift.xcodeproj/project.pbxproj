@@ -10,9 +10,9 @@
 		250C731124ACD98C00F51B51 /* _icon_file_type_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 250C730C24ACD98C00F51B51 /* _icon_file_type_close@2x.png */; };
 		250C731224ACD98C00F51B51 /* arrow-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 250C730D24ACD98C00F51B51 /* arrow-down@2x.png */; };
 		250C731324ACD98C00F51B51 /* arrow-up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 250C730E24ACD98C00F51B51 /* arrow-up@2x.png */; };
-		250C731424ACD98C00F51B51 /* Icon-App@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 250C730F24ACD98C00F51B51 /* Icon-App@2x.png */; };
 		250C731524ACD98C00F51B51 /* share@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 250C731024ACD98C00F51B51 /* share@2x.png */; };
 		250C731724ACDCFB00F51B51 /* _icon_file_type_network@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 250C731624ACDCFA00F51B51 /* _icon_file_type_network@2x.png */; };
+		256BC3CB24ACE6AE00DF56ED /* _Icon_app@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 256BC3CA24ACE6AE00DF56ED /* _Icon_app@2x.png */; };
 		38095B772414C5F300382668 /* CocoaDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38095A172414C5F300382668 /* CocoaDebug.swift */; };
 		38095B782414C5F300382668 /* CocoaDebugSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38095A182414C5F300382668 /* CocoaDebugSettings.swift */; };
 		38095B792414C5F300382668 /* CocoaDebug+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38095A1A2414C5F300382668 /* CocoaDebug+Extensions.swift */; };
@@ -369,9 +369,9 @@
 		250C730C24ACD98C00F51B51 /* _icon_file_type_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_icon_file_type_close@2x.png"; sourceTree = "<group>"; };
 		250C730D24ACD98C00F51B51 /* arrow-down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-down@2x.png"; sourceTree = "<group>"; };
 		250C730E24ACD98C00F51B51 /* arrow-up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-up@2x.png"; sourceTree = "<group>"; };
-		250C730F24ACD98C00F51B51 /* Icon-App@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App@2x.png"; sourceTree = "<group>"; };
 		250C731024ACD98C00F51B51 /* share@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share@2x.png"; sourceTree = "<group>"; };
 		250C731624ACDCFA00F51B51 /* _icon_file_type_network@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_icon_file_type_network@2x.png"; sourceTree = "<group>"; };
+		256BC3CA24ACE6AE00DF56ED /* _Icon_app@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_Icon_app@2x.png"; sourceTree = "<group>"; };
 		38095A172414C5F300382668 /* CocoaDebug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaDebug.swift; sourceTree = "<group>"; };
 		38095A182414C5F300382668 /* CocoaDebugSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaDebugSettings.swift; sourceTree = "<group>"; };
 		38095A192414C5F300382668 /* CocoaDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaDebug.h; sourceTree = "<group>"; };
@@ -904,9 +904,9 @@
 				250C730C24ACD98C00F51B51 /* _icon_file_type_close@2x.png */,
 				250C730D24ACD98C00F51B51 /* arrow-down@2x.png */,
 				250C730E24ACD98C00F51B51 /* arrow-up@2x.png */,
-				250C730F24ACD98C00F51B51 /* Icon-App@2x.png */,
 				250C731624ACDCFA00F51B51 /* _icon_file_type_network@2x.png */,
 				250C731024ACD98C00F51B51 /* share@2x.png */,
+				256BC3CA24ACE6AE00DF56ED /* _Icon_app@2x.png */,
 				38095A2F2414C5F300382668 /* _icon_file_type_app@2x.png */,
 				38095A322414C5F300382668 /* _icon_file_type_sandbox@2x.png */,
 				38095A332414C5F300382668 /* _icon_file_type_logs@2x.png */,
@@ -1640,7 +1640,6 @@
 				38095BF92414C5F400382668 /* icon_file_type_psd@2x.png in Resources */,
 				38095B9B2414C5F300382668 /* icon_file_type_avi@2x.png in Resources */,
 				38095B992414C5F300382668 /* icon_file_type_aac@3x.png in Resources */,
-				250C731424ACD98C00F51B51 /* Icon-App@2x.png in Resources */,
 				38095BE52414C5F400382668 /* icon_file_type_ipa@2x.png in Resources */,
 				38095C352414C5F400382668 /* Manager.storyboard in Resources */,
 				38095BE12414C5F400382668 /* icon_file_type_doc@2x.png in Resources */,
@@ -1724,6 +1723,7 @@
 				38095B9A2414C5F300382668 /* icon_file_type_midi.png in Resources */,
 				38095C2E2414C5F400382668 /* icon_file_type_ttf@2x.png in Resources */,
 				38095BB52414C5F400382668 /* icon_file_type_midi@3x.png in Resources */,
+				256BC3CB24ACE6AE00DF56ED /* _Icon_app@2x.png in Resources */,
 				EA1659DC204D1B14001472C1 /* Main.storyboard in Resources */,
 				38095BF82414C5F400382668 /* icon_file_type_gif.png in Resources */,
 				38095C082414C5F400382668 /* icon_file_type_dll@3x.png in Resources */,

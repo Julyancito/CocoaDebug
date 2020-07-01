@@ -116,9 +116,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
-                                        <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="Be8-cF-Ycv">
+                                        <searchBar contentMode="redraw" placeholder="Filter" translatesAutoresizingMaskIntoConstraints="NO" id="Be8-cF-Ycv">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                                            <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="barTintColor" red="0.13374525309999999" green="0.14222857359999999" blue="0.19367653130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <textInputTraits key="textInputTraits"/>
                                         </searchBar>
                                     </subviews>
@@ -218,7 +218,7 @@
                                                     </constraints>
                                                 </view>
                                             </subviews>
-                                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="backgroundColor" red="0.13374525309999999" green="0.14222857359999999" blue="0.19367653130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstItem="2og-DN-S9U" firstAttribute="top" secondItem="y1t-vs-uq4" secondAttribute="top" constant="8" id="Hq8-Jq-O9a"/>
                                                 <constraint firstItem="v6z-lT-K4u" firstAttribute="leading" secondItem="2og-DN-S9U" secondAttribute="trailing" id="JBC-iH-bsK"/>
@@ -259,7 +259,7 @@
                                     <action selector="didTapDown:" destination="b1x-pw-stc" id="E0g-LX-iIb"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem image="arrow-up" id="9TL-gp-zIa">
+                            <barButtonItem image="arrow-up.png" id="9TL-gp-zIa">
                                 <connections>
                                     <action selector="didTapUp:" destination="b1x-pw-stc" id="9Sk-0Z-wfk"/>
                                 </connections>
@@ -283,7 +283,7 @@
                                     <action selector="resetLogs:" destination="b1x-pw-stc" id="u7x-9v-lHc"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem image="arrow-down" id="CIu-Wf-1Pd">
+                            <barButtonItem image="arrow-down.png" id="CIu-Wf-1Pd">
                                 <connections>
                                     <action selector="didTapDown:" destination="b1x-pw-stc" id="dzh-LL-LT7"/>
                                 </connections>
@@ -308,7 +308,7 @@
     </scenes>
     <resources>
         <image name="_icon_file_type_logs" width="16" height="16"/>
-        <image name="arrow-down" width="25" height="25"/>
-        <image name="arrow-up" width="25" height="25"/>
+        <image name="arrow-down.png" width="25" height="25"/>
+        <image name="arrow-up.png" width="25" height="25"/>
     </resources>
 </document>
