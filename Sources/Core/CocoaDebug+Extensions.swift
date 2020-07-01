@@ -364,7 +364,7 @@ extension CocoaDebug {
         //color
         CocoaDebugSettings.shared.mainColor = mainColor ?? "#A1A2B4"
 
-        CocoaDebugSettings.shared.bubbleImageName = bubbleImageName ?? "Icon-App.png"
+        CocoaDebugSettings.shared.bubbleImageName = bubbleImageName ?? "Icon-App@2x.png"
         //slow animations
         CocoaDebugSettings.shared.slowAnimations = false
         

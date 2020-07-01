@@ -18,8 +18,8 @@ private let _successStatusCodes = ["200","201","202","203","204","205","206","20
 private let _informationalStatusCodes = ["100","101","102","103","122"]
 private let _redirectionStatusCodes = ["300","301","302","303","304","305","306","307","308"]
 
-private let _width: CGFloat = 60
-private let _height: CGFloat = 60
+private let _width: CGFloat = 70
+private let _height: CGFloat = 70
 
 class Bubble: UIView {
     
@@ -36,7 +36,7 @@ class Bubble: UIView {
 
     private lazy var imageIcon: UIImageView? = {
         let imageView = UIImageView(frame: CGRect(x:0, y:0, width:_width, height:_height))
-        imageView.image = UIImage(named: CocoaDebug.bubbleImageName ?? "Icon-App.png")
+        imageView.image = UIImage(named: CocoaDebug.bubbleImageName ?? "Icon-App@2x.png")
         imageView.contentMode = .scaleAspectFill
         return imageView
     }()
@@ -132,7 +132,7 @@ class Bubble: UIView {
         self.layer.shadowColor = UIColor.black.cgColor
         self.layer.shadowRadius = 5
         self.layer.shadowOpacity = 0.8
-        self.layer.cornerRadius = 30
+        self.layer.cornerRadius = 35
         self.layer.shadowOffset = CGSize.zero
         self.layer.masksToBounds = true
         self.sizeToFit()

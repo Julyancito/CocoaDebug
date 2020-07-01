@@ -234,7 +234,7 @@ import Foundation
         logSearchWordH5 = UserDefaults.standard.string(forKey: "logSearchWordH5_CocoaDebug")
         networkSearchWord = UserDefaults.standard.string(forKey: "networkSearchWord_CocoaDebug")
         mainColor = UserDefaults.standard.string(forKey: "mainColor_CocoaDebug") ?? "#A1A2B4"
-        bubbleImageName = UserDefaults.standard.string(forKey: "bubbleImageName_CocoaDebug") ?? "Icon-App.png"
+        bubbleImageName = UserDefaults.standard.string(forKey: "bubbleImageName_CocoaDebug") ?? "Icon-App@2x.png"
 
         //objc
         logMaxCount = _NetworkHelper.shared().logMaxCount
